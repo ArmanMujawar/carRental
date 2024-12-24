@@ -23,14 +23,6 @@ Visit the deployed application: [Car Rental System](https://ArmanMujawar.github.
 - **Backend**: Firebase (Authentication and Database)
 - **Deployment**: GitHub Pages
 
----
-
-## **Setup Instructions**
-
-### Prerequisites
-- Node.js (v14+)
-- npm or yarn
-
 ### Clone the Repository
 ```bash
 git clone https://github.com/ArmanMujawar/carRental.git
