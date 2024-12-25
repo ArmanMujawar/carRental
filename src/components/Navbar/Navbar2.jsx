@@ -1,19 +1,18 @@
 import React from 'react';
 import { Link, NavLink } from 'react-router-dom';
-import land2 from "../../assets/land2.jpg";
 import logo from "../../assets/logo2.png";
 
-const Navbar = () => {
+const Navbar2 = () => {
   return (
-    <div className="relative w-full h-screen overflow-hidden">
-    
-      <nav className="bg-transparent  px-6 py-2 flex justify-between items-center z-10 absolute w-full m-0 hover:bg-white">
+    <>
+     
+     <nav className="bg-transparent px-6 py-4 flex justify-between items-center w-full">
         {/* Left Section: Logo and Brand Name */}
         <div className="flex items-center">
           <img
             src={logo}
             alt="Logo"
-            className="h-16 w-full mr-4"
+            className="h-16 w-full mr-4"  
           />
           <span className="text-xl font-bold italic text-blue-800">ArmanCar</span>
         </div>
@@ -56,26 +55,8 @@ const Navbar = () => {
           </Link>
         </div>
       </nav>
+    </>
+  )
+}
 
-      {/* Background Image and Overlay */}
-      <img
-        src={land2}
-        alt="Landing Background"
-        className="absolute w-full h-full object-cover shadow-lg"
-      />
-
-      <div className="absolute top-0 left-0 w-full h-full bg-black bg-opacity-50 flex items-center justify-center">
-        <div className="text-center text-white">
-          <h1 className="text-5xl font-bold mb-4">
-            Welcome to <span className="text-yellow-300">ArmanCar Rentals</span>
-          </h1>
-          <p className="text-lg mb-6">
-            Your trusted partner for premium car rentals. Explore, drive, and enjoy!
-          </p>
-        </div>
-      </div>
-    </div>
-  );
-};
-
-export default Navbar;
+export default Navbar2

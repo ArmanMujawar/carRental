@@ -1,17 +1,18 @@
 import React from 'react';
-import"./index.css";
+import { Route, HashRouter as Router, Routes } from 'react-router-dom';
+import "./index.css";
 
-import { Route, BrowserRouter as Router, Routes } from 'react-router-dom';
 import AdminCarManagement from './components/Admin/AdminCarManagement';
 import UserLogin from './components/Authentication/UserLogin';
 import UserSignup from './components/Authentication/UserSignup';
 import Book from './components/Booking/Book';
 import Cart from './components/Cart/Cart';
 import Footer from './components/Footer/Footer';
-import Landing from './components/Navbar/Landing';
+
+import About from './components/About/About';
 import Navbar from './components/Navbar/Navbar';
 import Review from './components/Review/Review';
-import About from './components/About/About';
+import Faqs from './components/Review/Faqs';
 
 
 function App() {
@@ -27,14 +28,15 @@ function App() {
                     <>
                         <Navbar/>
                         
-                        <Landing />
+                      
                         <About/>
                         <Cart />
                         <Review/>
                       
                     </>
                 } />
-         
+                 
+                <Route path="/faqs" element={<Faqs />} />
                 <Route path="/book" element={<Book />} />
                 <Route path="/signup" element={<UserSignup /> }/>
                 

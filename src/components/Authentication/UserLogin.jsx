@@ -4,7 +4,8 @@ import { Link, useNavigate } from 'react-router-dom';
 
 
 import { auth } from './Firebase';
-import Navbar from '../Navbar/Navbar';
+
+import Navbar2 from '../Navbar/Navbar2';
 
 
 const UserLogin = () => {
@@ -34,7 +35,7 @@ const UserLogin = () => {
 
   return (
     <>
-      <Navbar/>
+      <Navbar2/>
     <div className='flex items-center justify-center min-h-screen bg-gray-700'>
       <div className='bg-white p-8 rounded-lg shadow-lg w-full max-w-md'>
          <h2 className='text-2xl font-bold text-gray-800 mb-6 text-center '>Admin Login</h2>
