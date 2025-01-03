@@ -3,7 +3,8 @@
 This is a fully functional car rental system built using React.js for the frontend and deployed on GitHub Pages. The application allows users to book cars, manage their carts, leave reviews, and more. 
 
 [## **Live Demo**
-Visit the deployed application: [Car Rental System](https://ArmanMujawar.github.io/carRental)](https://ArmanMujawar.github.io/carRental)
+Visit the deployed application:
+(https://ArmanMujawar.github.io/carRental)](https://ArmanMujawar.github.io/carRental)
 
 ---
 
